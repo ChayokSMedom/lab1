@@ -393,8 +393,6 @@ void String::swap(String& oth) {
     std::swap(Data, oth.Data);
 }
 
-// ==================== GLOBAL OPERATORS ====================
-
 // Operator +
 String operator+(const String& a, const String& b) {
     String result(a);
